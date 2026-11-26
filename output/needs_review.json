@@ -1,0 +1,1164 @@
+[
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Пашківці",
+    "street": "вул. Зарічна",
+    "token": "65",
+    "suggestion": "subqueues=['4.1', '5.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Польова",
+    "token": "1",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Польова",
+    "token": "10",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Польова",
+    "token": "14",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Польова",
+    "token": "16",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Польова",
+    "token": "8",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "1",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "11",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "16",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "18",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "4",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "5",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "6",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Писарівка",
+    "street": "вул. Центральна",
+    "token": "9",
+    "suggestion": "subqueues=['4.2', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Пашківці",
+    "street": "вул. Молодіжна",
+    "token": "3",
+    "suggestion": "subqueues=['5.1', '6.1']"
+  },
+  {
+    "issue": "multi_subqueue_village",
+    "settlement": "Попівці",
+    "street": "вул. Центральна",
+    "token": "1",
+    "suggestion": "subqueues=['5.1', '6.1']"
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Баглаї",
+    "street": "вул. Дружби",
+    "token": "",
+    "suggestion": "вулиця Миру",
+    "fix_template": {
+      "Баглаї|вул. Дружби": "вул. Дружби"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Баглаї",
+    "street": "вул. Космонавтів",
+    "token": "",
+    "suggestion": "Молодіжна вулиця",
+    "fix_template": {
+      "Баглаї|вул. Космонавтів": "вул. Космонавтів"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Баглаї",
+    "street": "вул. Лісова",
+    "token": "",
+    "suggestion": "Молодіжна вулиця",
+    "fix_template": {
+      "Баглаї|вул. Лісова": "вул. Лісова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Баглаї",
+    "street": "вул. Пятихатки",
+    "token": "",
+    "suggestion": "вулиця Лесі Українки",
+    "fix_template": {
+      "Баглаї|вул. Пятихатки": "вул. Пятихатки"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Баглаї",
+    "street": "пров. Шевченка",
+    "token": "",
+    "suggestion": "Центральна вулиця",
+    "fix_template": {
+      "Баглаї|пров. Шевченка": "пров. Шевченка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Березне",
+    "street": "вул. Набережна",
+    "token": "",
+    "suggestion": "Зарічна вулиця",
+    "fix_template": {
+      "Березне|вул. Набережна": "вул. Набережна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Бовкуни",
+    "street": "вул. Садова",
+    "token": "",
+    "suggestion": "Травнева вулиця",
+    "fix_template": {
+      "Бовкуни|вул. Садова": "вул. Садова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Бутівці",
+    "street": "вул. Автодорога",
+    "token": "",
+    "suggestion": "вулиця Олександра Довженка",
+    "fix_template": {
+      "Бутівці|вул. Автодорога": "вул. Автодорога"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Великі Мацевичі",
+    "street": "вул. Колгоспна",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Великі Мацевичі|вул. Колгоспна": "вул. Колгоспна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Великі Мацевичі",
+    "street": "вул. Цвіточна",
+    "token": "",
+    "suggestion": "Центральна вулиця",
+    "fix_template": {
+      "Великі Мацевичі|вул. Цвіточна": "вул. Цвіточна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Веснянка",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "Шкільна вулиця",
+    "fix_template": {
+      "Веснянка|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Волиця-Керекешина",
+    "street": "вул. Героїв України",
+    "token": "",
+    "suggestion": "Кленова вулиця",
+    "fix_template": {
+      "Волиця-Керекешина|вул. Героїв України": "вул. Героїв України"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Воронківці",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "Мальовнича вулиця",
+    "fix_template": {
+      "Воронківці|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Грибенинка",
+    "street": "вул. Озерна",
+    "token": "",
+    "suggestion": "вулиця Шевченка",
+    "fix_template": {
+      "Грибенинка|вул. Озерна": "вул. Озерна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Грибенинка",
+    "street": "вул. Польова",
+    "token": "",
+    "suggestion": "вулиця Островського",
+    "fix_template": {
+      "Грибенинка|вул. Польова": "вул. Польова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Грибенинка",
+    "street": "вул. Франка",
+    "token": "",
+    "suggestion": "вулиця Шевченка",
+    "fix_template": {
+      "Грибенинка|вул. Франка": "вул. Франка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Грибенинка",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "вулиця Шевченка",
+    "fix_template": {
+      "Грибенинка|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Григорівка",
+    "street": "вул. 227км а/д Васьковичи-Порубне",
+    "token": "",
+    "suggestion": "вулиця Грушевського",
+    "fix_template": {
+      "Григорівка|вул. 227км а/д Васьковичи-Порубне": "вул. 227км а/д Васьковичи-Порубне"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Григорівка",
+    "street": "вул. Автодорога Житомир-Чернівці-Тереблече 145 км.",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Григорівка|вул. Автодорога Житомир-Чернівці-Тереблече 145 км.": "вул. Автодорога Житомир-Чернівці-Тереблече 145 км."
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Григорівка",
+    "street": "вул. За межами населених пунктів Григорівської сільради",
+    "token": "",
+    "suggestion": "вулиця Незалежності",
+    "fix_template": {
+      "Григорівка|вул. За межами населених пунктів Григорівської сільради": "вул. За межами населених пунктів Григорівської сільради"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Григорівка",
+    "street": "вул. Приміська",
+    "token": "",
+    "suggestion": "Чернятинська вулиця",
+    "fix_template": {
+      "Григорівка|вул. Приміська": "вул. Приміська"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Губча",
+    "street": "вул. Лісова",
+    "token": "",
+    "suggestion": "Садова вулиця",
+    "fix_template": {
+      "Губча|вул. Лісова": "вул. Лісова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Губча",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "Люмирецька вулиця",
+    "fix_template": {
+      "Губча|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Демківці",
+    "street": "вул. Леніна",
+    "token": "",
+    "suggestion": "Кленова вулиця",
+    "fix_template": {
+      "Демківці|вул. Леніна": "вул. Леніна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Драчі",
+    "street": "вул. Шевченка",
+    "token": "",
+    "suggestion": "Берегова вулиця",
+    "fix_template": {
+      "Драчі|вул. Шевченка": "вул. Шевченка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Жабче",
+    "street": "вул. Козацька",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Жабче|вул. Козацька": "вул. Козацька"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Жабче",
+    "street": "вул. Миру",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Жабче|вул. Миру": "вул. Миру"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Жабче",
+    "street": "вул. Шемчука",
+    "token": "",
+    "suggestion": "Садова вулиця",
+    "fix_template": {
+      "Жабче|вул. Шемчука": "вул. Шемчука"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Жабче",
+    "street": "пров. Слави",
+    "token": "",
+    "suggestion": "Садова вулиця",
+    "fix_template": {
+      "Жабче|пров. Слави": "пров. Слави"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Залісся",
+    "street": "вул. Приймакова",
+    "token": "",
+    "suggestion": "Лісова вулиця",
+    "fix_template": {
+      "Залісся|вул. Приймакова": "вул. Приймакова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Капустин",
+    "street": "вул. Кругова",
+    "token": "",
+    "suggestion": "Світанкова вулиця",
+    "fix_template": {
+      "Капустин|вул. Кругова": "вул. Кругова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Капустин",
+    "street": "пров. Польовий 1",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Капустин|пров. Польовий 1": "пров. Польовий 1"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Капустин",
+    "street": "пров. Польовий другий",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Капустин|пров. Польовий другий": "пров. Польовий другий"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Капустин",
+    "street": "пров. Польовий перший",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Капустин|пров. Польовий перший": "пров. Польовий перший"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Караїмівка",
+    "street": "вул. Караїмівка",
+    "token": "",
+    "suggestion": "Центральна вулиця",
+    "fix_template": {
+      "Караїмівка|вул. Караїмівка": "вул. Караїмівка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Караїмівка",
+    "street": "вул. Лісова",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Караїмівка|вул. Лісова": "вул. Лісова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Костянець",
+    "street": "вул. Миру",
+    "token": "",
+    "suggestion": "Нова вулиця",
+    "fix_template": {
+      "Костянець|вул. Миру": "вул. Миру"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Красносілка",
+    "street": "вул. Набережна",
+    "token": "",
+    "suggestion": "Зарічна вулиця",
+    "fix_template": {
+      "Красносілка|вул. Набережна": "вул. Набережна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Красносілка",
+    "street": "вул. територія Веснянського старостинського округу Старокостянтинівської міської територіальної громади",
+    "token": "",
+    "suggestion": "вулиця Лесі Українки",
+    "fix_template": {
+      "Красносілка|вул. територія Веснянського старостинського округу Старокостянтинівської міської територіальної громади": "вул. територія Веснянського старостинського округу Старокостянтинівської міської територіальної громади"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Круча",
+    "street": "вул. П’ятихатки",
+    "token": "",
+    "suggestion": "Центральна вулиця",
+    "fix_template": {
+      "Круча|вул. П’ятихатки": "вул. П’ятихатки"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Ланок",
+    "street": "вул. Дорожна",
+    "token": "",
+    "suggestion": "Кар'єрна вулиця",
+    "fix_template": {
+      "Ланок|вул. Дорожна": "вул. Дорожна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Мальки",
+    "street": "вул. Пушкіна",
+    "token": "",
+    "suggestion": "вулиця Заславська",
+    "fix_template": {
+      "Мальки|вул. Пушкіна": "вул. Пушкіна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Малі Мацевичі",
+    "street": "вул. Березівського",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Малі Мацевичі|вул. Березівського": "вул. Березівського"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Малі Мацевичі",
+    "street": "вул. Кузніцова",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Малі Мацевичі|вул. Кузніцова": "вул. Кузніцова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Немирівка",
+    "street": "вул. Комсомольська",
+    "token": "",
+    "suggestion": "вулиця Лесі Українки",
+    "fix_template": {
+      "Немирівка|вул. Комсомольська": "вул. Комсомольська"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Немирівка",
+    "street": "вул. Лісова",
+    "token": "",
+    "suggestion": "Підлісна вулиця",
+    "fix_template": {
+      "Немирівка|вул. Лісова": "вул. Лісова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Немирівка",
+    "street": "вул. Хмельницького Богдана",
+    "token": "",
+    "suggestion": "Підлісна вулиця",
+    "fix_template": {
+      "Немирівка|вул. Хмельницького Богдана": "вул. Хмельницького Богдана"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Немирівка",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "вулиця Лесі Українки",
+    "fix_template": {
+      "Немирівка|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Немирівка",
+    "street": "вул. Черешенька",
+    "token": "",
+    "suggestion": "вулиця Шевченка",
+    "fix_template": {
+      "Немирівка|вул. Черешенька": "вул. Черешенька"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Оріхівка",
+    "street": "вул. Дзержинського",
+    "token": "",
+    "suggestion": "Кооперативна вулиця",
+    "fix_template": {
+      "Оріхівка|вул. Дзержинського": "вул. Дзержинського"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Оріхівка",
+    "street": "вул. Колгоспна",
+    "token": "",
+    "suggestion": "Кооперативна вулиця",
+    "fix_template": {
+      "Оріхівка|вул. Колгоспна": "вул. Колгоспна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Оріхівка",
+    "street": "вул. Леніна",
+    "token": "",
+    "suggestion": "Річна вулиця",
+    "fix_template": {
+      "Оріхівка|вул. Леніна": "вул. Леніна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Оріхівка",
+    "street": "вул. Садова",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Оріхівка|вул. Садова": "вул. Садова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Пашківці",
+    "street": "вул. Автодорога Городище-Рівне-Старокостянтинів",
+    "token": "",
+    "suggestion": "вулиця Героїв Чорнобильців",
+    "fix_template": {
+      "Пашківці|вул. Автодорога Городище-Рівне-Старокостянтинів": "вул. Автодорога Городище-Рівне-Старокостянтинів"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Писарівка",
+    "street": "вул. Комсомольська",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Писарівка|вул. Комсомольська": "вул. Комсомольська"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Писарівка",
+    "street": "вул. Пролетарська",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Писарівка|вул. Пролетарська": "вул. Пролетарська"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Пихтії",
+    "street": "вул. Франка",
+    "token": "",
+    "suggestion": "вулиця Івана Мазепи",
+    "fix_template": {
+      "Пихтії|вул. Франка": "вул. Франка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Попівці",
+    "street": "вул. автодорога (Городище-Рівне-Старокостянтинів) - Попівці",
+    "token": "",
+    "suggestion": "вулиця Острозького",
+    "fix_template": {
+      "Попівці|вул. автодорога (Городище-Рівне-Старокостянтинів) - Попівці": "вул. автодорога (Городище-Рівне-Старокостянтинів) - Попівці"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Попівці",
+    "street": "вул. автодорога місцевого значення С 231-422/11-25",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Попівці|вул. автодорога місцевого значення С 231-422/11-25": "вул. автодорога місцевого значення С 231-422/11-25"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Радківці",
+    "street": "вул. Ланковецька",
+    "token": "",
+    "suggestion": "Барвінкова вулиця",
+    "fix_template": {
+      "Радківці|вул. Ланковецька": "вул. Ланковецька"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Радківці",
+    "street": "пров. Весняний",
+    "token": "",
+    "suggestion": "Яснозірна вулиця",
+    "fix_template": {
+      "Радківці|пров. Весняний": "пров. Весняний"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Раштівка",
+    "street": "вул. За межами с.Раштівка на тереторії Великомацевицького старостинського округу",
+    "token": "",
+    "suggestion": "вулиця Климбівка",
+    "fix_template": {
+      "Раштівка|вул. За межами с.Раштівка на тереторії Великомацевицького старостинського округу": "вул. За межами с.Раштівка на тереторії Великомацевицького старостинського округу"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Раштівка",
+    "street": "вул. Кобеева",
+    "token": "",
+    "suggestion": "Набережна вулиця",
+    "fix_template": {
+      "Раштівка|вул. Кобеева": "вул. Кобеева"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Самчики",
+    "street": "вул. Авто дорога",
+    "token": "",
+    "suggestion": "Польова вулиця",
+    "fix_template": {
+      "Самчики|вул. Авто дорога": "вул. Авто дорога"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Самчики",
+    "street": "вул. Ділянка ПК 0+57,89 - ПК",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Самчики|вул. Ділянка ПК 0+57,89 - ПК": "вул. Ділянка ПК 0+57,89 - ПК"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Самчики",
+    "street": "вул. Ділянка ПК 18+46,60",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Самчики|вул. Ділянка ПК 18+46,60": "вул. Ділянка ПК 18+46,60"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Самчики",
+    "street": "вул. Центральна",
+    "token": "",
+    "suggestion": "вулиця Фурмана",
+    "fix_template": {
+      "Самчики|вул. Центральна": "вул. Центральна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Сахнівці",
+    "street": "вул. Автодорога Житомир-Чернівці-Тереблеча",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Сахнівці|вул. Автодорога Житомир-Чернівці-Тереблеча": "вул. Автодорога Житомир-Чернівці-Тереблеча"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Сахнівці",
+    "street": "вул. Гагаріна",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Сахнівці|вул. Гагаріна": "вул. Гагаріна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Сахнівці",
+    "street": "вул. Немиринецька",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Сахнівці|вул. Немиринецька": "вул. Немиринецька"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Сахнівці",
+    "street": "вул. Польова",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Сахнівці|вул. Польова": "вул. Польова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Сахнівці",
+    "street": "вул. Хмельницького",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Сахнівці|вул. Хмельницького": "вул. Хмельницького"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Автодорога",
+    "token": "",
+    "suggestion": "Заводська вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Автодорога": "вул. Автодорога"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Автодорога Городище-Рівне-Старокостянтинів 302км.+360",
+    "token": "",
+    "suggestion": "",
+    "fix_template": {
+      "Старокостянтинів|вул. Автодорога Городище-Рівне-Старокостянтинів 302км.+360": "вул. Автодорога Городище-Рівне-Старокостянтинів 302км.+360"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Автодорога Житомир-Чернівці",
+    "token": "",
+    "suggestion": "вулиця Авіаторів",
+    "fix_template": {
+      "Старокостянтинів|вул. Автодорога Житомир-Чернівці": "вул. Автодорога Житомир-Чернівці"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Автодорога Об’їздна-Старокостянтинів 3 км.",
+    "token": "",
+    "suggestion": "3-й Проскурівський провулок",
+    "fix_template": {
+      "Старокостянтинів|вул. Автодорога Об’їздна-Старокостянтинів 3 км.": "вул. Автодорога Об’їздна-Старокостянтинів 3 км."
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Ветлікарня",
+    "token": "",
+    "suggestion": "Лікарняна вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Ветлікарня": "вул. Ветлікарня"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Гонти Івана",
+    "token": "",
+    "suggestion": "провулок Івана Багряного",
+    "fix_template": {
+      "Старокостянтинів|вул. Гонти Івана": "вул. Гонти Івана"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Гончара",
+    "token": "",
+    "suggestion": "Набережна вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Гончара": "вул. Гончара"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Кармелюка",
+    "token": "",
+    "suggestion": "провулок Мельника",
+    "fix_template": {
+      "Старокостянтинів|вул. Кармелюка": "вул. Кармелюка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Квітнева",
+    "token": "",
+    "suggestion": "Степова вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Квітнева": "вул. Квітнева"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Михайла Стельмаха",
+    "token": "",
+    "suggestion": "вулиця Стельмаха",
+    "fix_template": {
+      "Старокостянтинів|вул. Михайла Стельмаха": "вул. Михайла Стельмаха"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Озерна",
+    "token": "",
+    "suggestion": "Зарічна вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Озерна": "вул. Озерна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Пашковецька",
+    "token": "",
+    "suggestion": "Пилявецька вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Пашковецька": "вул. Пашковецька"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Польова",
+    "token": "",
+    "suggestion": "вулиця Корольова",
+    "fix_template": {
+      "Старокостянтинів|вул. Польова": "вул. Польова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Стуса",
+    "token": "",
+    "suggestion": "Степова вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Стуса": "вул. Стуса"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "вул. Франка",
+    "token": "",
+    "suggestion": "Партизанська вулиця",
+    "fix_template": {
+      "Старокостянтинів|вул. Франка": "вул. Франка"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 1 Кривоноса",
+    "token": "",
+    "suggestion": "1-й Проскурівський провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 1 Кривоноса": "пров. 1 Кривоноса"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 1 Перемоги",
+    "token": "",
+    "suggestion": "1-й Польовий провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 1 Перемоги": "пров. 1 Перемоги"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 2 Перемоги",
+    "token": "",
+    "suggestion": "2-й Польовий провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 2 Перемоги": "пров. 2 Перемоги"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 20 дистанції колії",
+    "token": "",
+    "suggestion": "20-й Польовий провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 20 дистанції колії": "пров. 20 дистанції колії"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 3 Перемоги",
+    "token": "",
+    "suggestion": "3-й Польовий провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 3 Перемоги": "пров. 3 Перемоги"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 4 Кривоноса",
+    "token": "",
+    "suggestion": "4-й Проскурівський провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 4 Кривоноса": "пров. 4 Кривоноса"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 5 Кривоноса",
+    "token": "",
+    "suggestion": "5-а Південна вулиця",
+    "fix_template": {
+      "Старокостянтинів|пров. 5 Кривоноса": "пров. 5 Кривоноса"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. 6 Кривоноса",
+    "token": "",
+    "suggestion": "6-й Проскурівський провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. 6 Кривоноса": "пров. 6 Кривоноса"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Інтернаціональний",
+    "token": "",
+    "suggestion": "Центральний провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. Інтернаціональний": "пров. Інтернаціональний"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Барки",
+    "token": "",
+    "suggestion": "Любарський провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. Барки": "пров. Барки"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Воїнів інтернаціоналістів",
+    "token": "",
+    "suggestion": "вулиця Героїв Небесної Сотні",
+    "fix_template": {
+      "Старокостянтинів|пров. Воїнів інтернаціоналістів": "пров. Воїнів інтернаціоналістів"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Квітковий",
+    "token": "",
+    "suggestion": "Київський провулок",
+    "fix_template": {
+      "Старокостянтинів|пров. Квітковий": "пров. Квітковий"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Некрасова",
+    "token": "",
+    "suggestion": "вулиця Чкалова",
+    "fix_template": {
+      "Старокостянтинів|пров. Некрасова": "пров. Некрасова"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Тедоровича",
+    "token": "",
+    "suggestion": "вулиця Леонтовича",
+    "fix_template": {
+      "Старокостянтинів|пров. Тедоровича": "пров. Тедоровича"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. Ціолковського",
+    "token": "",
+    "suggestion": "вулиця Виговського",
+    "fix_template": {
+      "Старокостянтинів|пров. Ціолковського": "пров. Ціолковського"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Старокостянтинів",
+    "street": "пров. садовий",
+    "token": "",
+    "suggestion": "Садова вулиця",
+    "fix_template": {
+      "Старокостянтинів|пров. садовий": "пров. садовий"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Хутори",
+    "street": "вул. Колгоспна",
+    "token": "",
+    "suggestion": "Польова vulytsia",
+    "fix_template": {
+      "Хутори|вул. Колгоспна": "вул. Колгоспна"
+    }
+  },
+  {
+    "issue": "unmatched_street",
+    "settlement": "Хутори",
+    "street": "вул. Хмельницького",
+    "token": "",
+    "suggestion": "вулиця Незалежності",
+    "fix_template": {
+      "Хутори|вул. Хмельницького": "вул. Хмельницького"
+    }
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "hromada_id": "starokostiantyniv",
+  "profile_version": "2026-11-25",
+  "total_settlements": 67,
+  "duplicate_errors": [],
+  "osm_check": {
+    "available": true,
+    "matched": 67,
+    "total": 67,
+    "missing_in_osm": [],
+    "extra_in_osm": [
+      "Старокостянтинівська міська громада"
+    ]
+  },
+  "xlsx_check": {
+    "available": true,
+    "matched": 67,
+    "total": 67,
+    "missing_in_xlsx": []
+  },
+  "near_matches_in_skipped": [
+    {
+      "skipped_settlement": "Воронівці",
+      "records_count": 17,
+      "closest_profile_settlement": "Воронківці",
+      "similarity": 94.7
+    },
+    {
+      "skipped_settlement": "Вербівка",
+      "records_count": 1,
+      "closest_profile_settlement": "Вербівочка",
+      "similarity": 88.9
+    },
+    {
+      "skipped_settlement": "Дашківці",
+      "records_count": 6,
+      "closest_profile_settlement": "Пашківці",
+      "similarity": 87.5
+    },
+    {
+      "skipped_settlement": "Корниця",
+      "records_count": 7,
+      "closest_profile_settlement": "Криниця",
+      "similarity": 85.7
+    },
+    {
+      "skipped_settlement": "Антонівка",
+      "records_count": 1,
+      "closest_profile_settlement": "Андронівка",
+      "similarity": 84.2
+    },
+    {
+      "skipped_settlement": "Буглаї",
+      "records_count": 8,
+      "closest_profile_settlement": "Баглаї",
+      "similarity": 83.3
+    },
+    {
+      "skipped_settlement": "Деркачі",
+      "records_count": 8,
+      "closest_profile_settlement": "Драчі",
+      "similarity": 83.3
+    },
+    {
+      "skipped_settlement": "Кучманівка",
+      "records_count": 7,
+      "closest_profile_settlement": "Кучівка",
+      "similarity": 82.4
+    },
+    {
+      "skipped_settlement": "Лисанівці",
+      "records_count": 9,
+      "closest_profile_settlement": "Сахнівці",
+      "similarity": 82.4
+    },
+    {
+      "skipped_settlement": "Паньківці",
+      "records_count": 22,
+      "closest_profile_settlement": "Пашківці",
+      "similarity": 82.4
+    },
+    {
+      "skipped_settlement": "Пашутинці",
+      "records_count": 5,
+      "closest_profile_settlement": "Партинці",
+      "similarity": 82.4
+    },
+    {
+      "skipped_settlement": "Весняне",
+      "records_count": 7,
+      "closest_profile_settlement": "Веснянка",
+      "similarity": 80.0
+    },
+    {
+      "skipped_settlement": "Карабіївка",
+      "records_count": 4,
+      "closest_profile_settlement": "Караїмівка",
+      "similarity": 80.0
+    },
+    {
+      "skipped_settlement": "Ключівка",
+      "records_count": 11,
+      "closest_profile_settlement": "Кучівка",
+      "similarity": 80.0
+    },
+    {
+      "skipped_settlement": "Корчівка",
+      "records_count": 16,
+      "closest_profile_settlement": "Кучівка",
+      "similarity": 80.0
+    },
+    {
+      "skipped_settlement": "Кунча",
+      "records_count": 5,
+      "closest_profile_settlement": "Круча",
+      "similarity": 80.0
+    },
+    {
+      "skipped_settlement": "Манівці",
+      "records_count": 7,
+      "closest_profile_settlement": "Сахнівці",
+      "similarity": 80.0
+    }
+  ],
+  "ok": true
+}

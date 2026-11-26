@@ -1,0 +1,92 @@
+name: SvitloSk Address Monitor
+
+on:
+  workflow_dispatch:
+    inputs:
+      accept_mass_change:
+        description: "Підтвердити масову зміну підчерг (>30% громади)"
+        required: false
+        default: false
+        type: boolean
+      force_rebuild:
+        description: "Примусова перезбірка навіть якщо файл не змінився"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: svitlosk-address-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: pytest -q
+
+      - name: Run address monitor pipeline
+        id: run_monitor
+        env:
+          PYTHONIOENCODING: utf-8
+          VISICOM_API_KEY: ${{ secrets.VISICOM_API_KEY }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.accept_mass_change }}" = "true" ]; then
+            FLAGS="$FLAGS --accept-mass-change"
+          fi
+          if [ "${{ inputs.force_rebuild }}" = "true" ]; then
+            FLAGS="$FLAGS --force-rebuild"
+          fi
+
+          set +e
+          python src/monitor.py --profile profiles/hromada.json $FLAGS
+          CODE=$?
+          set -e
+
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          echo "Monitor exited with code: $CODE"
+
+          if [ "$CODE" -eq 0 ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          elif [ "$CODE" -eq 10 ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Source file unchanged. Nothing to commit."
+            exit 0
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit "$CODE"
+          fi
+
+      - name: Commit updated JSON outputs and state
+        if: steps.run_monitor.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/ data/state/ data/reports/ data/set1_oblenergo/ data/set2_external/ data/raw_oblenergo/*_meta.json
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+          else
+            git commit -m "chore(data): update address database ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

@@ -1,0 +1,71 @@
+{
+  "run_id": "20261126-0930",
+  "started_at": "2026-11-26T09:30:28.924541Z",
+  "finished_at": "2026-11-26T09:30:37.315609Z",
+  "status": "ok",
+  "source": {
+    "url": "https://hoe.com.ua/Content/Uploads/GPV6/xls/Черги_на_відключення_Старокостянтинівський_РЕМ_23112026.xlsx",
+    "sha256": "3e1098b3f7907c809bb1f11bdd5371b09aae4620f8228e900dfb6e4b7e835abf",
+    "last_modified": "",
+    "changed": false
+  },
+  "steps": {
+    "fetch": "skipped",
+    "parse": "ok",
+    "guards": "ok",
+    "sync": "ok",
+    "build": "ok"
+  },
+  "counts": {
+    "records": 860,
+    "settlements": "67/67",
+    "addresses": 14846,
+    "excluded": 83,
+    "review": 121
+  },
+  "changes": {
+    "added": 103,
+    "subqueue_changed": 0,
+    "gone": 0,
+    "mass_change": []
+  },
+  "guards": [
+    {
+      "name": "file_signature",
+      "value": "size=183731, zip=True",
+      "limit": ">=50000 & PK",
+      "ok": true
+    },
+    {
+      "name": "header",
+      "value": true,
+      "limit": true,
+      "ok": true
+    },
+    {
+      "name": "min_settlements_ratio",
+      "value": 1.0,
+      "limit": 0.9,
+      "ok": true
+    },
+    {
+      "name": "min_records_ratio_vs_prev",
+      "value": 1.0,
+      "limit": 0.7,
+      "ok": true
+    },
+    {
+      "name": "max_changed_ratio",
+      "value": 0.0,
+      "limit": 0.3,
+      "ok": true
+    },
+    {
+      "name": "max_review_ratio",
+      "value": 0.0,
+      "limit": 0.05,
+      "ok": true
+    }
+  ],
+  "error": null
+}

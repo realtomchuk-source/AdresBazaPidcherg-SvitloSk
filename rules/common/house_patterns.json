@@ -1,0 +1,55 @@
+[
+  {
+    "class": "pole",
+    "pattern": "^(?:\\(?оп\\.?\\s*\\d.*|.*\\(оп\\.\\s*\\d+\\))$",
+    "route": "excluded",
+    "reason": "pole"
+  },
+  {
+    "class": "road_km",
+    "pattern": "(?:\\b\\d+\\s*км\\.?|\\d+\\+\\d+|\\bпк\\s*\\d)",
+    "route": "excluded",
+    "reason": "road_km"
+  },
+  {
+    "class": "suspicious_range",
+    "pattern": "^\\d+\\s*[-–]\\s*\\d+$",
+    "route": "review",
+    "reason": "suspicious_range"
+  },
+  {
+    "class": "garage",
+    "pattern": "^(?P<base>\\d+\\s*-?[а-яіїєґa-z]?(?:/\\d+\\s*-?[а-яіїєґa-z]?)?)\\s*(?:гараж|гар)\\b.*$",
+    "route": "clean"
+  },
+  {
+    "class": "box",
+    "pattern": "^(?P<base>\\d+\\s*-?[а-яіїєґa-z]?(?:/\\d+\\s*-?[а-яіїєґa-z]?)?)\\s*бокс(?:\\s*\\d.*)?$",
+    "route": "clean"
+  },
+  {
+    "class": "block",
+    "pattern": "^(?P<base>\\d+\\s*-?[а-яіїєґa-z]?(?:/\\d+\\s*-?[а-яіїєґa-z]?)?)[\\s,]*(?:блок|бл\\.?|б\\.)\\s*[\\w/]+.*$",
+    "route": "clean"
+  },
+  {
+    "class": "apartment",
+    "pattern": "^(?P<base>\\d+\\s*-?[а-яіїєґa-z]?(?:/\\d+\\s*-?[а-яіїєґa-z]?)?)\\s*(?:кв\\.?|к\\.|пр\\.?|під\\.?|прим\\.?)\\s*\\d+.*$",
+    "route": "clean"
+  },
+  {
+    "class": "note",
+    "pattern": "^(?P<base>\\d+\\s*-?[а-яіїєґa-z]?(?:/\\d+\\s*-?[а-яіїєґa-z]?)?)\\s*\\([^)]*\\)$",
+    "route": "clean"
+  },
+  {
+    "class": "house_frac",
+    "pattern": "^(?P<base>\\d+\\s*[а-яіїєґa-z]?/\\d+\\s*-?[а-яіїєґa-z]?)$",
+    "route": "clean"
+  },
+  {
+    "class": "house",
+    "pattern": "^(?P<base>\\d+\\s*-?\\s*[а-яіїєґa-z]?)$",
+    "route": "clean"
+  }
+]

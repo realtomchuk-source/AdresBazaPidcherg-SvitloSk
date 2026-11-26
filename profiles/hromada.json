@@ -1,0 +1,791 @@
+{
+  "schema": 3,
+  "id": "starokostiantyniv",
+  "profile_version": "2026-11-25",
+  "name": "Старокостянтинівська міська територіальна громада",
+  "region": "Хмельницька область",
+  "district": "Хмельницький район",
+  "katottg": "UA68040390000011141",
+  "osm_relation": 12272111,
+  "oblenergo": {
+    "page_url": "https://hoe.com.ua/page/pogodinni-vidkljuchennja",
+    "rem_name": "Старокостянтинівський РЕМ",
+    "file_keywords": [
+      "Старокостянтинівськ"
+    ],
+    "prefer": "xlsx",
+    "expected_header": [
+      "Населений пункт",
+      "Вулиця",
+      "Список будинків",
+      "Черга/підчерга"
+    ]
+  },
+  "settlements": [
+    {
+      "name": "Старокостянтинів",
+      "type": "місто",
+      "okrug": "Адмінцентр",
+      "katottg": "UA68040390010084208",
+      "aliases": [
+        "м. Старокостянтинів",
+        "Ст.Костянтинів"
+      ],
+      "slug": "starokostiantyniv",
+      "lat": 49.75036,
+      "lon": 27.21639,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Баглаї",
+      "type": "село",
+      "okrug": "Баглаївський",
+      "katottg": "UA68040390030028388",
+      "aliases": [],
+      "slug": "bahlai",
+      "lat": 49.6995,
+      "lon": 27.42853,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Ємці",
+      "type": "село",
+      "okrug": "Баглаївський",
+      "katottg": "UA68040390220087696",
+      "aliases": [],
+      "slug": "iemtsi",
+      "lat": 49.69104,
+      "lon": 27.40262,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Загірне",
+      "type": "село",
+      "okrug": "Баглаївський",
+      "katottg": "UA68040390240069418",
+      "aliases": [],
+      "slug": "zahirne",
+      "lat": 49.67537,
+      "lon": 27.50324,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Лажева",
+      "type": "село",
+      "okrug": "Баглаївський",
+      "katottg": "UA68040390360028046",
+      "aliases": [],
+      "slug": "lazheva",
+      "lat": 49.7121,
+      "lon": 27.46445,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Березне",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390040075077",
+      "aliases": [],
+      "slug": "berezne",
+      "lat": 49.86935,
+      "lon": 27.04559,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Бутівці",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390060084212",
+      "aliases": [],
+      "slug": "butivtsi",
+      "lat": 49.85252,
+      "lon": 27.09915,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Березівка",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390500019596",
+      "aliases": [
+        "Першотравневе"
+      ],
+      "renamed": {
+        "from": "Першотравневе",
+        "date": "2024-09"
+      },
+      "slug": "berezivka",
+      "lat": 49.88911,
+      "lon": 27.06324,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Лисинці",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390380041157",
+      "aliases": [],
+      "slug": "lysyntsi",
+      "lat": 49.87003,
+      "lon": 27.07718,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Нападівка",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390430040223",
+      "aliases": [],
+      "slug": "napadivka",
+      "lat": 49.85699,
+      "lon": 27.06139,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Пихтії",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390520057066",
+      "aliases": [],
+      "slug": "pykhtii",
+      "lat": 49.87756,
+      "lon": 27.00122,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Вербівочка",
+      "type": "село",
+      "okrug": "Березненський",
+      "katottg": "UA68040390090027981",
+      "aliases": [],
+      "slug": "verbivochka",
+      "lat": 49.84118,
+      "lon": 27.03414,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Великі Мацевичі",
+      "type": "село",
+      "okrug": "Великомацевицький",
+      "katottg": "UA68040390080057321",
+      "aliases": [],
+      "slug": "velyki_matsevychi",
+      "lat": 49.87962,
+      "lon": 27.30923,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Малі Мацевичі",
+      "type": "село",
+      "okrug": "Великомацевицький",
+      "katottg": "UA68040390410025607",
+      "aliases": [],
+      "slug": "mali_matsevychi",
+      "lat": 49.89104,
+      "lon": 27.35356,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Круча",
+      "type": "село",
+      "okrug": "Великомацевицький",
+      "katottg": "UA68040390340060015",
+      "aliases": [],
+      "slug": "krucha",
+      "lat": 49.86009,
+      "lon": 27.35384,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Раштівка",
+      "type": "село",
+      "okrug": "Великомацевицький",
+      "katottg": "UA68040390570015583",
+      "aliases": [],
+      "slug": "rashtivka",
+      "lat": 49.8652,
+      "lon": 27.26222,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Великий Чернятин",
+      "type": "село",
+      "okrug": "Великочернятинський",
+      "katottg": "UA68040390070077235",
+      "aliases": [],
+      "slug": "velykyi_cherniatyn",
+      "lat": 49.78695,
+      "lon": 27.07134,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Малий Чернятин",
+      "type": "село",
+      "okrug": "Великочернятинський",
+      "katottg": "UA68040390390071245",
+      "aliases": [],
+      "slug": "malyi_cherniatyn",
+      "lat": 49.79147,
+      "lon": 27.0068,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Оріхівка",
+      "type": "село",
+      "okrug": "Великочернятинський",
+      "katottg": "UA68040390460075932",
+      "aliases": [],
+      "slug": "orikhivka",
+      "lat": 49.80583,
+      "lon": 27.08576,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Вербородинці",
+      "type": "село",
+      "okrug": "Вербородинський",
+      "katottg": "UA68040390100055340",
+      "aliases": [],
+      "slug": "verborodyntsi",
+      "lat": 49.67571,
+      "lon": 27.33193,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Гнатки",
+      "type": "село",
+      "okrug": "Вербородинський",
+      "katottg": "UA68040390140039734",
+      "aliases": [],
+      "slug": "hnatky",
+      "lat": 49.68162,
+      "lon": 27.36286,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Веснянка",
+      "type": "село",
+      "okrug": "Веснянський",
+      "katottg": "UA68040390110078230",
+      "aliases": [],
+      "slug": "vesnianka",
+      "lat": 49.71746,
+      "lon": 27.31517,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Ланок",
+      "type": "село",
+      "okrug": "Веснянський",
+      "katottg": "UA68040390370046600",
+      "aliases": [],
+      "slug": "lanok",
+      "lat": 49.74036,
+      "lon": 27.31905,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Караїмівка",
+      "type": "село",
+      "okrug": "Веснянський",
+      "katottg": "UA68040390290019433",
+      "aliases": [],
+      "slug": "karaimivka",
+      "lat": 49.70241,
+      "lon": 27.29866,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Волиця-Керекешина",
+      "type": "село",
+      "okrug": "Волице-Керекешинський",
+      "katottg": "UA68040390120024451",
+      "aliases": [],
+      "slug": "volytsia_kerekeshyna",
+      "lat": 49.82025,
+      "lon": 27.11426,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Червона Семенівка",
+      "type": "село",
+      "okrug": "Волице-Керекешинський",
+      "katottg": "UA68040390660032910",
+      "aliases": [],
+      "slug": "chervona_semenivka",
+      "lat": 49.83237,
+      "lon": 27.06176,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Воронківці",
+      "type": "село",
+      "okrug": "Воронковецький",
+      "katottg": "UA68040390130030445",
+      "aliases": [],
+      "slug": "voronkivtsi",
+      "lat": 49.70489,
+      "lon": 27.13383,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Григорівка",
+      "type": "село",
+      "okrug": "Григорівський",
+      "katottg": "UA68040390160065898",
+      "aliases": [],
+      "slug": "hryhorivka",
+      "lat": 49.72559,
+      "lon": 27.18062,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Губча",
+      "type": "село",
+      "okrug": "Губчанський",
+      "katottg": "UA68040390180015357",
+      "aliases": [],
+      "slug": "hubcha",
+      "lat": 49.90613,
+      "lon": 27.15499,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Зеленці",
+      "type": "село",
+      "okrug": "Губчанський",
+      "katottg": "UA68040390260024774",
+      "aliases": [],
+      "slug": "zelentsi",
+      "lat": 49.88617,
+      "lon": 27.13417,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Мальки",
+      "type": "село",
+      "okrug": "Губчанський",
+      "katottg": "UA68040390420060446",
+      "aliases": [],
+      "slug": "malky",
+      "lat": 49.86488,
+      "lon": 27.12078,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Партинці",
+      "type": "село",
+      "okrug": "Губчанський",
+      "katottg": "UA68040390470071335",
+      "aliases": [],
+      "slug": "partyntsi",
+      "lat": 49.91617,
+      "lon": 27.19472,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Іршики",
+      "type": "село",
+      "okrug": "Іршиківський",
+      "katottg": "UA68040390270037207",
+      "aliases": [],
+      "slug": "irshyky",
+      "lat": 49.83394,
+      "lon": 27.39651,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Малишівка",
+      "type": "село",
+      "okrug": "Іршиківський",
+      "katottg": "UA68040390400069739",
+      "aliases": [],
+      "slug": "malyshivka",
+      "lat": 49.82746,
+      "lon": 27.42359,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Хижники",
+      "type": "село",
+      "okrug": "Іршиківський",
+      "katottg": "UA68040390640019591",
+      "aliases": [],
+      "slug": "khyzhnyky",
+      "lat": 49.85005,
+      "lon": 27.41923,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Яремичі",
+      "type": "село",
+      "okrug": "Іршиківський",
+      "katottg": "UA68040390670086041",
+      "aliases": [],
+      "slug": "iaremychi",
+      "lat": 49.83536,
+      "lon": 27.45861,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Капустин",
+      "type": "село",
+      "okrug": "Капустинський",
+      "katottg": "UA68040390280064590",
+      "aliases": [],
+      "slug": "kapustyn",
+      "lat": 49.83501,
+      "lon": 27.17262,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Красносілка",
+      "type": "село",
+      "okrug": "Красносільський",
+      "katottg": "UA68040390320027104",
+      "aliases": [],
+      "slug": "krasnosilka",
+      "lat": 49.76278,
+      "lon": 27.30386,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Немирівка",
+      "type": "село",
+      "okrug": "Красносільський",
+      "katottg": "UA68040390440017228",
+      "aliases": [],
+      "slug": "nemyrivka",
+      "lat": 49.79645,
+      "lon": 27.2798,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Огіївці",
+      "type": "село",
+      "okrug": "Огіївський",
+      "katottg": "UA68040390450080708",
+      "aliases": [],
+      "slug": "ohiivtsi",
+      "lat": 49.83349,
+      "lon": 27.29111,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Громівка",
+      "type": "село",
+      "okrug": "Огіївський",
+      "katottg": "UA68040390170061862",
+      "aliases": [],
+      "slug": "hromivka",
+      "lat": 49.8048,
+      "lon": 27.28798,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Писарівка",
+      "type": "село",
+      "okrug": "Огіївський",
+      "katottg": "UA68040390510029429",
+      "aliases": [],
+      "slug": "pysarivka",
+      "lat": 49.83435,
+      "lon": 27.3238,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Половинники",
+      "type": "село",
+      "okrug": "Огіївський",
+      "katottg": "UA68040390530012474",
+      "aliases": [],
+      "slug": "polovynnyky",
+      "lat": 49.81344,
+      "lon": 27.31579,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Пашківці",
+      "type": "село",
+      "okrug": "Пашковецький",
+      "katottg": "UA68040390480061964",
+      "aliases": [],
+      "slug": "pashkivtsi",
+      "lat": 49.77267,
+      "lon": 27.15977,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Грибенинка",
+      "type": "село",
+      "okrug": "Пашковецький",
+      "katottg": "UA68040390150091945",
+      "aliases": [],
+      "slug": "hrybenynka",
+      "lat": 49.79828,
+      "lon": 27.14241,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Попівці",
+      "type": "село",
+      "okrug": "Пашковецький",
+      "katottg": "UA68040390540018842",
+      "aliases": [],
+      "slug": "popivtsi",
+      "lat": 49.80343,
+      "lon": 27.18636,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Пеньки",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390490030928",
+      "aliases": [],
+      "slug": "penky",
+      "lat": 49.92236,
+      "lon": 27.08059,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Андронівка",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390020018624",
+      "aliases": [],
+      "slug": "andronivka",
+      "lat": 49.9379,
+      "lon": 27.09096,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Бовкуни",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390050060240",
+      "aliases": [],
+      "slug": "bovkuny",
+      "lat": 49.91089,
+      "lon": 27.00405,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Драчі",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390200058016",
+      "aliases": [],
+      "slug": "drachi",
+      "lat": 49.90707,
+      "lon": 27.02448,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Залісся",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390250049887",
+      "aliases": [],
+      "slug": "zalissia",
+      "lat": 49.91226,
+      "lon": 27.11186,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Криниця",
+      "type": "село",
+      "okrug": "Пеньківський",
+      "katottg": "UA68040390330040669",
+      "aliases": [],
+      "slug": "krynytsia",
+      "lat": 49.90088,
+      "lon": 27.08596,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Радківці",
+      "type": "село",
+      "okrug": "Радковецький",
+      "katottg": "UA68040390560094489",
+      "aliases": [],
+      "slug": "radkivtsi",
+      "lat": 49.82655,
+      "lon": 27.22708,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Демківці",
+      "type": "село",
+      "okrug": "Радковецький",
+      "katottg": "UA68040390190072798",
+      "aliases": [],
+      "slug": "demkivtsi",
+      "lat": 49.84139,
+      "lon": 27.25082,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Хутори",
+      "type": "село",
+      "okrug": "Радковецький",
+      "katottg": "UA68040390650033566",
+      "aliases": [],
+      "slug": "khutory",
+      "lat": 49.80908,
+      "lon": 27.23485,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Жабче",
+      "type": "село",
+      "okrug": "Радковецький",
+      "katottg": "UA68040390230066077",
+      "aliases": [],
+      "slug": "zhabche",
+      "lat": 49.84552,
+      "lon": 27.21395,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Решнівка",
+      "type": "село",
+      "okrug": "Решнівецький",
+      "katottg": "UA68040390580063555",
+      "aliases": [],
+      "slug": "reshnivka",
+      "lat": 49.78872,
+      "lon": 27.39675,
+      "ambiguous_in_rem": true
+    },
+    {
+      "name": "Росолівці",
+      "type": "село",
+      "okrug": "Росолівецький",
+      "katottg": "UA68040390590038275",
+      "aliases": [],
+      "slug": "rosolivtsi",
+      "lat": 49.77457,
+      "lon": 27.02815,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Самчики",
+      "type": "село",
+      "okrug": "Самчиківський",
+      "katottg": "UA68040390600099719",
+      "aliases": [],
+      "slug": "samchyky",
+      "lat": 49.76533,
+      "lon": 27.39096,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Степок",
+      "type": "село",
+      "okrug": "Самчиківський",
+      "katottg": "UA68040390620067554",
+      "aliases": [],
+      "slug": "stepok",
+      "lat": 49.73487,
+      "lon": 27.375,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Сахнівці",
+      "type": "село",
+      "okrug": "Сахновецький",
+      "katottg": "UA68040390610077858",
+      "aliases": [],
+      "slug": "sakhnivtsi",
+      "lat": 49.76704,
+      "lon": 27.33399,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Киселі",
+      "type": "село",
+      "okrug": "Сахновецький",
+      "katottg": "UA68040390300062873",
+      "aliases": [],
+      "slug": "kyseli",
+      "lat": 49.80803,
+      "lon": 27.36072,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Стецьки",
+      "type": "село",
+      "okrug": "Стецьківський",
+      "katottg": "UA68040390630024202",
+      "aliases": [],
+      "slug": "stetsky",
+      "lat": 49.88059,
+      "lon": 27.19429,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Костянець",
+      "type": "село",
+      "okrug": "Стецьківський",
+      "katottg": "UA68040390310046602",
+      "aliases": [],
+      "slug": "kostianets",
+      "lat": 49.88634,
+      "lon": 27.22721,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Кучівка",
+      "type": "село",
+      "okrug": "Стецьківський",
+      "katottg": "UA68040390350044106",
+      "aliases": [],
+      "slug": "kuchivka",
+      "lat": 49.88217,
+      "lon": 27.17949,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Прохорівка",
+      "type": "село",
+      "okrug": "Стецьківський",
+      "katottg": "UA68040390550010228",
+      "aliases": [],
+      "slug": "prokhorivka",
+      "lat": 49.869,
+      "lon": 27.18464,
+      "ambiguous_in_rem": false
+    },
+    {
+      "name": "Дубина",
+      "type": "село",
+      "okrug": "Стецьківський",
+      "katottg": "UA68040390210094737",
+      "aliases": [],
+      "slug": "dubyna",
+      "lat": 49.85531,
+      "lon": 27.16875,
+      "ambiguous_in_rem": false
+    }
+  ],
+  "guards": {
+    "min_file_bytes": 50000,
+    "min_settlements_ratio": 0.9,
+    "min_records_ratio_vs_prev": 0.7,
+    "max_changed_ratio": 0.3,
+    "max_review_ratio": 0.05,
+    "mass_change_settlement_ratio": 0.3,
+    "gone_after_missing_runs": 2
+  },
+  "center": {
+    "lat": 49.75036,
+    "lon": 27.21639
+  },
+  "bbox": [
+    26.95122,
+    49.64537,
+    27.55324,
+    49.9679
+  ]
+}

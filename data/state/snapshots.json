@@ -1,0 +1,16 @@
+[
+  {
+    "sha256": "f53770cb965c5d8f94d1a0589d1c5a6a33224934533b7a81fe10877d1340a99e",
+    "downloaded_at": "2026-11-23T09:45:42.313859+00:00",
+    "last_modified": "",
+    "file": "data\\raw_oblenergo\\starokostiantyniv_20261123_094542.xlsx",
+    "rows_hromada": 861
+  },
+  {
+    "sha256": "3e1098b3f7907c809bb1f11bdd5371b09aae4620f8228e900dfb6e4b7e835abf",
+    "downloaded_at": "2026-11-25T13:07:28.342885+00:00",
+    "last_modified": "",
+    "file": "data\\raw_oblenergo\\starokostiantyniv_20261125_130728.xlsx",
+    "rows_hromada": 860
+  }
+]

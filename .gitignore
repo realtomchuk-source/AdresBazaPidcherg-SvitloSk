@@ -1,0 +1,15 @@
+# Secrets (NEVER commit)
+.env
+
+# Python / venv / caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime logs, locks, backups, and raw binary XLSX archives
+logs/
+data/state/.lock
+data/state/backup/
+data/raw_oblenergo/*.xlsx
+*.tmp
