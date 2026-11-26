@@ -1,5 +1,6 @@
-# Secrets (NEVER commit)
+# Secrets & local notes (NEVER commit)
 .env
+шпаргалка.txt
 
 # Python / venv / caches
 .venv/
